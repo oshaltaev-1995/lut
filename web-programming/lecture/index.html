@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+    <meta name ="viewpoint" content="width=device-width, initial-scale=1.0">
+    <script src="js/basic.js"></script>
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <nav><a href=".">Home</a><a href="http://gpiste.org">Gpiste.org</a></nav>
+        <h1>Curriculum vitae</h1>
+    </header>
+    
+    <main>
+        <p>Name: <strong>Oleg Shaltaev</strong></p>
+        <p>Address: <a href="http://gpiste.org"><em>Gpiste.org</em></a></p>
+        <img src="images/picture.jpg" alt="Me">
+
+        <h2>Work history</h2>
+        <!--<p>LUT 2020</p>
+        <p>TUNI 2019</p>
+        <p>UTA 2016</p>
+        <p>LUT 2008</p>-->
+
+        <table>
+            <thead>
+                <tr><th>Organization</th><th>Years</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>LUT</td><td>2020</td><td>Teaching</td></tr>
+                <tr><td>TUNI</td><td>2019</td><td>Development</td></tr>
+                <tr><td>UTA</td><td>2016</td><td>Development</td></tr>
+                <tr><td>LUT</td><td>2008</td><td>Researching/teaching</td></tr>
+            </tbody>
+        </table>
+
+        <h2>Education</h2>
+        <p>PhD 2015</p>
+
+        <h2>Language skills</h2>
+        <ol>
+            <li>Russian: native</li>
+            <li>English: professional</li>
+            <li>Finnish: professional</li>
+            <li>French: professional</li>
+        </ol>
+
+        <h2>Other projects</h2>
+        <p><a href="https://github.com/oshaltaev-1995?tab=repositories">My GitHub</a></p>
+    
+        <h2>Leave a note</h2>
+        <!--<form action="" method="GET">-->
+            <fieldset>
+                <legend>Information</legend>
+                <label for="fname">First name:</label>
+                <input type="text" name="fname" id="fname" placeholder="First name">
+                <label for="lname">Last name:</label>
+                <input type="text" name="lname" id="lname" placeholder="Last name">
+                <label for="age">Age:</label>
+                <input type="range" name="age" id="age" min="0" max="130">
+            </fieldset>
+
+            <label for="mood">What's your mood:</label>
+            <select id="mood" name="mood">
+                <option value="perfect">Perfect</option>
+                <option value="ok">Ok</option>
+                <option value="bad">Bad</option>
+            </select>
+            <br>
+
+            <textarea name="message" id="message" rows="10" cols="30"
+            placeholder="Leave a note..."></textarea>
+
+            <!--<input type="submit" value="Submit">-->
+            <button id="add-note">Add note</button>
+            <button id="remove-note">Remove note</button>
+        
+        <!--</form>-->
+        <div id="notes">
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>This is the <span class="red">CV</span> of Oleg Shaltaev</p>
+    </footer>
+</body>
+</html>
