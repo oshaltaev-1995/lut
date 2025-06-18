@@ -1,0 +1,15 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "Week 1 HTML/JS exercise",
+  "scripts": {
+    "start": "parcel index.html --port 1234",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
